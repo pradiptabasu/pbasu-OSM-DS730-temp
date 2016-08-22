@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:tns="http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL">
+    <xs:simpleType name="OrderId">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+    <xs:complexType name="xmlData">
+    <xs:sequence/>
+  </xs:complexType>
+    <xs:complexType name="xmlOrderData">
+    <xs:complexContent>
+      <xs:extension base="tns:xmlData"/>
+    </xs:complexContent>
+  </xs:complexType>
+    <xs:complexType name="FunctionType">
+    <xs:sequence>
+      <xs:element maxOccurs="1" minOccurs="0" name="componentKey">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="100"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="orderItem">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="xs:anyType"/>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+    <xs:complexType name="ControlData">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="OrderItem">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+              <xs:sequence>
+                <xs:element maxOccurs="1" minOccurs="0" name="ProductCode">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element maxOccurs="1" minOccurs="0" name="ProductName">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element maxOccurs="1" minOccurs="0" name="ProductDesc">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element maxOccurs="1" minOccurs="0" name="ProductClass">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element maxOccurs="1" minOccurs="0" name="ProductSpec">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element maxOccurs="1" minOccurs="0" name="LineID">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element maxOccurs="1" minOccurs="0" name="BundleID">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                                              <xs:element maxOccurs="1" minOccurs="0" name="ParentLineID">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element maxOccurs="1" minOccurs="0" name="LineItemPayload">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="xs:anyType"/>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+                                <xs:element maxOccurs="1" minOccurs="0" name="ProductType">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element maxOccurs="1" minOccurs="0" name="RequestedDeliveryDate">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:dateTime"/>
+                  </xs:simpleType>
+                </xs:element>
+                            </xs:sequence>
+            </xs:restriction>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element maxOccurs="1" minOccurs="0" name="Functions">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="InitiateBillingFunction">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="tns:FunctionType"/>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="FulfillBillingFunction">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="tns:FunctionType"/>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="ProvisioningOrderFunction">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="tns:FunctionType"/>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="InstallOrderFunction">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="tns:FunctionType"/>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="ShipOrderFunction">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="tns:FunctionType"/>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:restriction>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

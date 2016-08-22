@@ -1,0 +1,3608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mslv.com/studio/core/model/common" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:data="http://www.oracle.com/communications/studio/core/model/common/data" xmlns:provisioning="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xsi:type="dataDictionaryCompanionType" name="OsmCentralOMExample-Orchestration_companion">
+  <displayName>DDCM</displayName>
+  <saveVersion>7</saveVersion>
+  <id>iHjO1RKoQaiz8m2oBrN3pQ</id>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData</element>
+    <elementType>ControlData</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>c1uT-tE+QL2XaAWm7RN4ww</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>EfgEydtPRae81CftQVDl+Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>vwDZYlJRSL2CQFr1wMf7zA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>v7oQI1grRC6ApJT31fU+Pw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/productClass</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/productClass</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ACKe0xkkQ3iBlvxTzmWQmQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/productClass</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>e2AlcBHaS5iiOaxWIMBm-w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/productClass</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>kTlht4FuTmWrb1RoO-R-Hg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/productClass</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/productSpec</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/productSpec</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Q-SNiIq4QsiflpV6bUUFIQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/productSpec</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>1ACIUwx3TUKvupKkIKXaAw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/productSpec</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>IW+pt-4sTVizlEJqrnP2oA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/productSpec</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/lineId</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/lineId</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>hqn7MpKvTLClrL-9kTqutg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/lineId</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>2qqRn6UDQpWmEqCDqxQx9w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/lineId</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>0AdZ4XeCQACGtWWW6lqB-A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/lineId</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/lineItemName</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/lineItemName</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ZffyEZEmS++yiGhJhOu5Rg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/lineItemName</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>uG7jrtwmT+yQ2D3eGM0kdg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/lineItemName</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>LhMRV9I0RXKtyDYJEPp6fQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/lineItemName</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/requestedDeliveryDate</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>dateTime</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/requestedDeliveryDate</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>UH7iS3QKSyaCm3ccjZM66A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/requestedDeliveryDate</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>kSIUmn0IRgOYuqAYPUdzrg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/requestedDeliveryDate</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/parentLineId</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/parentLineId</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>60CgGMHCQV6AJME-6GfP1Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/parentLineId</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>TfMKPznoQf+2MlLvJobCzg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/parentLineId</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>pM1cRkPHQ4iaQUPTIk4Q-Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/parentLineId</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/region</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/region</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>mmL7zSCyRTexTSrFeuCNDQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/region</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>YV5+2PXHRSWuN1d01omj9A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/region</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>Srh8NEQVQzGKGITYt6UXAg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/region</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/typeCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/typeCode</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>9XQ8RG9xRzaUQpl7TVTGQA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/typeCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>kIgRBWPWRIO12fdhVqD19A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/typeCode</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>hFPI6OGRSY2ropxUgkAxkw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/typeCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/serviceId</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/serviceId</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>SWX8Luj-Sk+oGEhvU2u4Ag</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/serviceId</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>3dmLlHw5Q2ezGtOgUMyikQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/serviceId</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>7+izlbmNRWS8gLY59gNGmA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/serviceId</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/lineItemPayload</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/lineItemPayload</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>+TlCXEcDSwugm3RxaAbqPw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/lineItemPayload</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>IBRe3GJvSqO8-EwJFinLmw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/lineItemPayload</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>mjHNPzRST3ekg-yi6LNT8A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>16QAUZqHSGGBiTltoumJ2g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FunctionType</element>
+    <elementType>FunctionType</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FunctionType</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ehtpfaOTRnCsvTRXNqhsoA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FunctionType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>mha4qPXaR1G+bJSMu4IclQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>FunctionType</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/BillingFunction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>FunctionType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>ControlData/Functions/BillingFunction</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>0f3KDA4aQFqXQhlVwHRqjw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>QC2rHJuVQEukIXT4Xvt3WA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FunctionType/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FunctionType/componentKey</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>W8v7XorHRi67Ag+bNx1xZQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FunctionType/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>0XeRgrcETR+eteYHfYpgFg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>FunctionType/componentKey</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>-kLbheJRSOi4hhaZwQeZig</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>FunctionType/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/BillingFunction/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/BillingFunction/componentKey</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>TMVNFqywSiWO5PLX5fj-GQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>nztojhHrT5GVqYT68Y5IDw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FunctionType/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FunctionType/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Y-GtyX9tSW6J4F71PMN9iQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FunctionType/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>zyPLx14NT8mnROTzLnxzow</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>FunctionType/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/BillingFunction/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/BillingFunction/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>MjZPkBSHT3KlmefQHph7Fw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>JpZPDbIWRxWHA8qbX2Up1Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>BillingProfile</element>
+    <elementType>BillingProfile</elementType>
+    <baseElement>InvoiceProfileType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/InputMessage</baseNamespace>
+    <dataElementId>BillingProfile</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>DKPkp58QS7Co7K0nmcYw6A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>BillingProfile</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>eJSumz9oTzOe60p-Wpj5Hg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>BillingProfile</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>BillingProfile/mediaType</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>BillingProfile/mediaType</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>umbZc1gTSKu+ZeiAZ47Kow</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>BillingProfile/mediaType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>vkfCA60TR+eUpGAGsnlsOQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>BillingProfile/mediaType</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>BillingProfile/typeInvoice</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>BillingProfile/typeInvoice</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>GWxmaDxKSWOXlO7DPd5HGQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>BillingProfile/typeInvoice</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>3FaEv8U7R0qLbCquX9vzJg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>BillingProfile/typeInvoice</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>BillingProfile/billingCycle</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>BillingProfile/billingCycle</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>8DoF4icwRLuqHk9msGkdpg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>BillingProfile/billingCycle</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>ZeVigCmZRbSeZPrKYfvzGg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>BillingProfile/billingCycle</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>BillingProfile/exemptionICMS</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>boolean</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>BillingProfile/exemptionICMS</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ntZYCaUxRJamCsZfsM1SEg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>BillingProfile/exemptionICMS</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Vz9k-bHnRKG-cLatgfQ5JA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>BillingProfile/exemptionICMS</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>BillingProfile/empresaFaturamento</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>BillingProfile/empresaFaturamento</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>-hKl4zFgRXqKIwpWvw8Q+Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>BillingProfile/empresaFaturamento</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>fJ+WzJdmRfys-8YxzO1mqw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>BillingProfile/empresaFaturamento</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>BillingProfile/paymentMethod</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>BillingProfile/paymentMethod</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>gomlN2DPTNCXnA8najqRag</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>BillingProfile/paymentMethod</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Hi9Vb+EGRPyPCfW9EVc4-Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>BillingProfile/paymentMethod</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status</element>
+    <elementType>Status</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>u+PRyxZIR2KSI6ZLAmMRYw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>EzvzPEwPQzGqJDlxNbEOjw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>StatusType</element>
+    <elementType>StatusType</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>StatusType</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>mGni9exNSUCJqLvSJtGH9A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>StatusType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>mjI5xte9SuavnMX6bpGiYQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>StatusType</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/BillingStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>StatusType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>Status/BillingStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>YTeUh1obR9aKlhTsyHD-qA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/BillingStatus</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>gHloWi1BRqi8DGCmXb0elQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/BillingStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>StatusType/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>StatusType/ErrorCode</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>3aryTPkpSdCVglw81ukcLw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>StatusType/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>MzjDGouSS4S7bPNzWAAqcw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>StatusType/ErrorCode</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>M8EZLnhCRhmKvBEIChe0VA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>StatusType/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/BillingStatus/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/BillingStatus/ErrorCode</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>P8JFETszSE6UhaGoe7Ugjg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/BillingStatus/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>1ojwrM8lSyGanbCDE60sFw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/BillingStatus/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>StatusType/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>StatusType/ErrorMessage</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>XrCoaE9wS8KjW9amYd50PA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>StatusType/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>PVjNsy-ES1itgI86WgNs3Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>StatusType/ErrorMessage</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>UVlWI9WSSoO1QtAXTBRr4g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>StatusType/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/BillingStatus/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/BillingStatus/ErrorMessage</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Bp0pNrQURMCTM2D848E47A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/BillingStatus/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>2hq1M2KGRO+A3lmE1Y7-Eg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/BillingStatus/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>StatusType/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>StatusType/ErrorStatus</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>8BgLAgTSSumwP+ZADZYp5g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>StatusType/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>erzh3-vqTjeUGy1WBcKD7Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>StatusType/ErrorStatus</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>39-isJreSqumYxvqye1mxQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>StatusType/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/BillingStatus/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/BillingStatus/ErrorStatus</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>deqG0T1RSfa-WonfNUukHw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/BillingStatus/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>acbMvT+TSiOAeWWJvygUGQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/BillingStatus/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FalloutMessage</element>
+    <elementType>FalloutMessage</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FalloutMessage</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ZJhwaCrWQi6hsWolCA-XXg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FalloutMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>x69X97Q+QcybNVEzzZC7HQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>FalloutMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/MarketingFunction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>FunctionType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>ControlData/Functions/MarketingFunction</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>hdcza7eRQlGy5KHVH5G6oQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/MarketingFunction</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>nuv4n59dQcqC6nhHRG+-3Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/MarketingFunction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails</element>
+    <elementType>CustomerDetails</elementType>
+    <baseElement>CustomerAddress</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/InputMessage</baseNamespace>
+    <dataElementId>CustomerDetails</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>2cJA-ztoRlaFkNqgJomKZg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>fx9H4cKjQEatuDi9pDxfyw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>OrderHeader</element>
+    <elementType>OrderHeader</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>OrderHeader</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>fgOvPPmGSYaxCsAgdhkMyQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>OrderHeader</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>LAUNDalHRs28f1Bex5GG8w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>OrderHeader</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails</element>
+    <elementType>AccountDetails</elementType>
+    <baseElement>CustomerAccountType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/InputMessage</baseNamespace>
+    <dataElementId>AccountDetails</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>HjXPf-NzTkGRkcHgNeXU1A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>xR74Fq2sQPGTjqge8Yy-xw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/SyncCustomerFunction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>FunctionType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>ControlData/Functions/SyncCustomerFunction</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>jvXBoUTmTKybrMi0loT5Yw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/SyncCustomerFunction</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>xInz57atQrOg4Qi-CBcxtA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/SyncCustomerFunction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/SyncCustomerFunction/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/SyncCustomerFunction/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>jY1+G75JSneFbCCmT6s5pA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/SyncCustomerFunction/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>w72smHC5T7GBv60RcFT9ww</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/SyncCustomerFunction/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/SyncCustomerStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>StatusType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>Status/SyncCustomerStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>c2JIDEUORlq2YWmvIRAScw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/SyncCustomerStatus</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>irqjuirSSV2KzAyE7XJE1A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/SyncCustomerStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ProvisioningFunction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>FunctionType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>ControlData/Functions/ProvisioningFunction</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>jnNsET8GQbibT691ZEmMNg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Fs577MfcSvqB4VbhCVlGqA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ProvisioningFunction/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/ProvisioningFunction/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ePdzqTlRRqafxCBr-gjD4w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>IuacBfAwTLikAbdIzy88lQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ResponseParamGroup</element>
+    <elementType>ResponseParamGroup</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ResponseParamGroup</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>l+jFgClDRuaLXw5XxW2ONQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ResponseParamGroup</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>II3G0CsyRc61GYXL2tCI9w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ResponseParamGroup</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ResponseParamGroup/ResponseParam</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ResponseParamGroup/ResponseParam</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>S+B8bVa5To2x4txMSLCoEQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>GAE-GKQ-SjepsWMIYOnv2g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningDSLRegion2Status</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>StatusType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>Status/ProvisioningDSLRegion2Status</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>PBU+rvqnSBqHybd1LINoyw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion2Status</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>5JgGCI+IRH60McVEMRUyDA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion2Status</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/CollectionsFunction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>FunctionType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>ControlData/Functions/CollectionsFunction</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>dh0SBh02ThK9qOMx8K7-gQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/CollectionsFunction</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>+vevIvxbRvq5ioVaGfkP6g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/CollectionsFunction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/CollectionsFunction/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/CollectionsFunction/componentKey</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>jXR4XUgzRHaD8Hq7Maqg+Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/CollectionsFunction/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>7k411h6cRz21K24uBkPbDg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/CollectionsFunction/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/CollectionsFunction/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/CollectionsFunction/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>vg2oENhCQkKD9AEUPfevyA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/CollectionsFunction/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Yc0mw0zSSK25SWVfsTzlNg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/CollectionsFunction/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/CollectionsStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>StatusType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>Status/CollectionsStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>8FE+ZlRJTvi+K5mtOwl4Iw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/CollectionsStatus</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>qCRfJTvxSb+OrS0ZXw2zcA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/CollectionsStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/CollectionsStatus/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/CollectionsStatus/ErrorCode</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>UB9rIvOST5WL964+e7P1sw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/CollectionsStatus/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Cw4kMpZHQOuGcCPLZ+r6CA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/CollectionsStatus/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/CollectionsStatus/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/CollectionsStatus/ErrorMessage</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>5BtMP02iRoe3iWDZe0IIcA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/CollectionsStatus/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Nf7TDKeBR6+SMXY+M9SDKg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/CollectionsStatus/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/CollectionsStatus/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/CollectionsStatus/ErrorStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>VSeflA-8Tm2T0caJkoLgwg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/CollectionsStatus/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>la3W9KZ-Rc+FLSlWikshfg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/CollectionsStatus/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningFixedStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>StatusType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>Status/ProvisioningFixedStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>K4SpPDQgRl2ezVUlbbsCzg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningFixedStatus</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>YXN7e6N0ScOO7gtUZMXg6Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningFixedStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningDSLRegion1Status</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>StatusType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>Status/ProvisioningDSLRegion1Status</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ADFRMdZGTjyDhJE12Ai7jg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion1Status</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>OpjyJ+yzQWyyf5Mrw29X-Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion1Status</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ProvisioningFunction/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/ProvisioningFunction/componentKey</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>TxUNcnDRTNy07dt-kqE2pw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>sDiTYlihTY2LZQ0RfSqS1w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ProvisioningFunction/SystemInteraction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/ProvisioningFunction/SystemInteraction</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>kljmqVrOR+OzxYYtGAzx+A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction/SystemInteraction</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>HOqWsiklTXu7F1ImCeMdug</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction/SystemInteraction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ProvisioningFunction/SystemInteraction/ConversationId</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/ProvisioningFunction/SystemInteraction/ConversationId</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ZiNZqynwTOGagcyDyCi1Sw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction/SystemInteraction/ConversationId</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>VX93nRdqTiOadh232EGNkg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction/SystemInteraction/ConversationId</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>IzG1vDUpTSuclcBfwyoSDg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningFunction/SystemInteraction/ConversationId</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/MarketingFunction/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/MarketingFunction/componentKey</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>IJ7YjL70SkeHJNspeViRFg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/MarketingFunction/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>fLIXs-u1Q6evDNTBO2Y-OQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/MarketingFunction/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/MarketingFunction/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/MarketingFunction/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>YCxhHK1ITuu6WM2QdG13Wg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/MarketingFunction/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Esb8rKfdQsC58aP-Yk0r8Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/MarketingFunction/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/SyncCustomerFunction/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/SyncCustomerFunction/componentKey</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>1LjQZOl-RladIZPz0-vDVQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/SyncCustomerFunction/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>vIPj7LXdRoeOrtrnoCZ46w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/SyncCustomerFunction/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/SyncCustomerStatus/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/SyncCustomerStatus/ErrorCode</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>rKjwu-SqT6ed3ItltjkOYg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/SyncCustomerStatus/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>BisPhsNmS4adjgRfOcIlYQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/SyncCustomerStatus/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/SyncCustomerStatus/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/SyncCustomerStatus/ErrorMessage</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>IZYqKkbUTR6bmVKIWl4djA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/SyncCustomerStatus/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>RdqoTbgsQ6y8EIpze1kmqA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/SyncCustomerStatus/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/SyncCustomerStatus/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/SyncCustomerStatus/ErrorStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>miEHttkqR4ic5gawGMWIXg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/SyncCustomerStatus/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>3UQmpzrWT9CqxkYrK2ZUkg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/SyncCustomerStatus/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningFixedStatus/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningFixedStatus/ErrorCode</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>QNSGmjkRSjuCu8I6yGvx1w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningFixedStatus/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>7MRTi2SoTT2AJ+RkInz5Pw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningFixedStatus/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningFixedStatus/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningFixedStatus/ErrorMessage</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>TNuqUXsJRDqdrZn93azHUA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningFixedStatus/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>8v8DOJ2JQWq7365I+lcQUQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningFixedStatus/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningFixedStatus/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningFixedStatus/ErrorStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>r9HKrf26Q3ewHv-NsIZnsg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningFixedStatus/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>bEuwT3vVQ2ieFpx7rZjqZA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningFixedStatus/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningMobileStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>StatusType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>Status/ProvisioningMobileStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>5E5IR8YWQHWa1fKK9OEOEQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningMobileStatus</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>+W5wIBG0T2ehZd8UDi0gvQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningMobileStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningMobileStatus/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningMobileStatus/ErrorCode</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>bibf+duQRPS7Sx2dooxekw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningMobileStatus/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>JCUHu0rQQGqeIDnhmlK0hg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningMobileStatus/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningMobileStatus/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningMobileStatus/ErrorMessage</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>A5jYBnedSv67QYDm54RBGQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningMobileStatus/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>26tqnRjPRtm+YJE7H-ZpAA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningMobileStatus/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningMobileStatus/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningMobileStatus/ErrorStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>rKVaTY8MQGqbXwXss6qxhQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningMobileStatus/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>aSp9-yqoR2G+4bUOzqe9bQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningMobileStatus/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningDSLRegion1Status/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningDSLRegion1Status/ErrorCode</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>VUgE0pEqQqq16FYB0l-+AQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion1Status/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Pe-CHaCRRISvSj5PMbF9lQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion1Status/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningDSLRegion1Status/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningDSLRegion1Status/ErrorMessage</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ZLWAFVa2Qva2QglTIkfd0g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion1Status/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>iRMfT+exS9WlO9Zsq3rC8Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion1Status/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningDSLRegion1Status/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningDSLRegion1Status/ErrorStatus</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Ac46xcMcTyC8ibKQ596U5w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion1Status/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>W7QKOncrSDOt87-MX4Bx5Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion1Status/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningDSLRegion2Status/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningDSLRegion2Status/ErrorCode</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ElZ3Ui2SQwSI0u8U97wOGA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion2Status/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>ikAQyQQ2Rka0GaCFE6+LWA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion2Status/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningDSLRegion2Status/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningDSLRegion2Status/ErrorMessage</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>plRdQiA9SAK1OM6iqOnJUw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion2Status/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>NeLB1hkUTbedcKPBlpvq2A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion2Status/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/ProvisioningDSLRegion2Status/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/ProvisioningDSLRegion2Status/ErrorStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>JmiG3tDaSleM6qXsiPAxnQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion2Status/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>28tCLU6TRCmL0c4wtaQSSw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/ProvisioningDSLRegion2Status/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/MarketingStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>StatusType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration</baseNamespace>
+    <dataElementId>Status/MarketingStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>BSdL+gxkSKiUGgr9BjCQJA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/MarketingStatus</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>4pNqUbYQRhGbQUchTJJ0Tw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/MarketingStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/MarketingStatus/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/MarketingStatus/ErrorCode</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ahIi09FYSRqVLLI0ad2BKA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/MarketingStatus/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>A6nrQSLJSz6PyaDoszDEPw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/MarketingStatus/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/MarketingStatus/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/MarketingStatus/ErrorMessage</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>34z0cFZfS6qh7OCic2vqrg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/MarketingStatus/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>ULZc7DseTRe+mThuUmFdzA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/MarketingStatus/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>Status/MarketingStatus/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>Status/MarketingStatus/ErrorStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Fbrvbe3dQDWGtHCe8WH9Zg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>Status/MarketingStatus/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>a5qVBcYdTyaOf8muDs2tEg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>Status/MarketingStatus/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/locationType</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/locationType</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>e2ikamuuTFSAYChCoBaxpA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/locationType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>qHAr4jP4RieagIGt0wA+Cw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/locationType</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/nameLocation</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/nameLocation</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>jHJ6Fgn7RW6rZJsTyUux6w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/nameLocation</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>9UVsbaIkSw2jgUyvQH0rLg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/nameLocation</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/number</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/number</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>CHeY4JqPRy6YXcXFpT4QIg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/number</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>9cxyNwgmQpas4Ho76gvf5Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/number</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/typeCompl</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/typeCompl</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>yeNjnU4SQ7yjH2EVQ6QsLg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/typeCompl</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>LKFJ+vnBQ3uqXpOs-rLoWQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/typeCompl</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/numCompl</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/numCompl</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>CTpUVQclSKeEb4VqcRUzDw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/numCompl</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>lQZDncsNRSyuJSVnoOuOUQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/numCompl</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/district</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/district</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>0ADMQQZ-QsKfiGxSvE0UdQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/district</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>+HBjtmYITa2HjX4XulhL+w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/district</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/codeLocation</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/codeLocation</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>EIaDgpS2SQqgZMl9k9xe3w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/codeLocation</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Hq3QX9dwQNOPNYzXkekMcA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/codeLocation</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/city</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/city</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>gKZzIq66Tf211wEiLjBKag</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/city</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>mdFkTktXQzirrmnY4Ny8Bw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/city</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/state</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/state</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>NACc3jyMS+W1M+CLs+-pfg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/state</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>rZcq+vT3Q-SNGTdsJNptcg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/state</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/referencePoint</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/referencePoint</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Y7dAoarQQTe1pKcI97aNAg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/referencePoint</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>obEkS5kiSTWx2lxzbZ2P-w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/referencePoint</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/areaCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/areaCode</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>EaPF9PYWQuS0j1qcd7W43w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/areaCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>n3OU9TqDRqS3IA-+oaMvPQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/areaCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>CustomerDetails/typeAddress</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>CustomerDetails/typeAddress</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>1EmUZL+1TE2xFo2nCCI2-Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>CustomerDetails/typeAddress</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>9vCWvr-SSF+G5eJNYEliLQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>CustomerDetails/typeAddress</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>OrderHeader/numSalesOrder</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>OrderHeader/numSalesOrder</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Ym-uT4egTdiyvchzA2oMvw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>OrderHeader/numSalesOrder</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>PvP3jQoETg+hKw7QtCaYQQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>OrderHeader/numSalesOrder</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>Lh0BB5YuQpqkAX4pksMgKg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>OrderHeader/numSalesOrder</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>OrderHeader/typeOrder</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>OrderHeader/typeOrder</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>YHYQggpsQmO5e0DkKWUk6w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>OrderHeader/typeOrder</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>GSGUJtHDQzWqrQy3v29gFg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>OrderHeader/typeOrder</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>DDFdVL-jSC+gZkYDX3Hwkw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>OrderHeader/typeOrder</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/numAccount</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AccountDetails/numAccount</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>CdE5HJc9RQKbwMR4O7SRtg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/numAccount</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>dw6shgBnSLC-5ikWSHMfPw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/numAccount</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/status</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AccountDetails/status</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>VFbbgQQgSyu2lh5UhFjWjQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/status</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>JTRotcc4SiKmehoOOKJyxQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/status</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/corporate</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AccountDetails/corporate</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>zX0govJ4TEWkcrIJ63-IDA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/corporate</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>chIHZMX2T-CYIz0dkflEMA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/corporate</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/cpfClient</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AccountDetails/cpfClient</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>TOlnNTynT1OZlbwPfy659g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/cpfClient</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>DxjjF4KhRwaVweW0NuYABA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/cpfClient</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/cnpjClient</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AccountDetails/cnpjClient</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>+zuWefOuT66oVxXjsuw2Hw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/cnpjClient</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>9RE-UCuXQL+5J1BMoDOgaA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/cnpjClient</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/inscrState</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AccountDetails/inscrState</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>pRWjmNoZSFCWU-veAoOglg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/inscrState</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>W1QAETMBSRSCEXu24Xlz6g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/inscrState</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/clientSince</element>
+    <elementType>xs:date</elementType>
+    <baseElement>date</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AccountDetails/clientSince</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>bl9ycwO9SxS1ygeq0-gWEw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/clientSince</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>5DLfDeoJTgK3mxI4heHGFg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/clientSince</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/category</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AccountDetails/category</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>n0jlHv5TTbOKjV7stQUA-w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/category</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>pAE1NI6fREuP01fpPQMcCQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/category</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ResponseParamGroup/ResponseParam/paramName</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ResponseParamGroup/ResponseParam/paramName</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>6Ypza1tLTWyyVUSxKj9C3g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam/paramName</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>y-dN85XdSyG22m1l97wALA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam/paramName</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>h+CufuUvRNqMycq97Pasng</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam/paramName</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ResponseParamGroup/ResponseParam/paramValue</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ResponseParamGroup/ResponseParam/paramValue</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>JAnJebOIQim1wCKwSapHFQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam/paramValue</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>We3k2d3SQBO22IpuB4PYqA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam/paramValue</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>5AApfUKWQ0upRmemK-5FnA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam/paramValue</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ResponseParamGroup</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ResponseParamGroup</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>RcUozRT5Sfu-KwEKG+jIRQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ResponseParamGroup</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>zGsts-AiSlWUi6g3U7EA-w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ResponseParamGroup</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/segmentMarkets</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AccountDetails/segmentMarkets</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>+0HdTz4RSAKbQiqUYggOgg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/segmentMarkets</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>ZhQuzpTDRZOKewICpVwTvQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/segmentMarkets</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ResponseParamGroup/ResponseParam/paramName</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam/paramName</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>JDyKFCgjTIyKRPqY0sEYFQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam/paramName</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Cr-o5YFpSK2b39NpBxUb0w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam/paramName</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>smFQEvYQSfKzaB1wgLASbw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam/paramName</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/segmentMarkets/segmentMarket</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AccountDetails/segmentMarkets/segmentMarket</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>RJU30B+-Sza-p3fMJ7oh6A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/segmentMarkets/segmentMarket</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>G-PXVsUgSf2E+Sun+Uj2tA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/segmentMarkets/segmentMarket</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ResponseParamGroup/ResponseParam/componentKey</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ResponseParamGroup/ResponseParam/componentKey</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>1InFc1JvSx2shUxN3kThlQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>4zGWNrNIQeqSw-ayWuaFEw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam/componentKey</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>ZiTiGImBRdaaDxcahe4sWw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ResponseParamGroup/ResponseParam/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/invoiceProfile</element>
+    <elementType>im:InvoiceProfileType</elementType>
+    <baseElement>InvoiceProfileType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/InputMessage</baseNamespace>
+    <dataElementId>AccountDetails/invoiceProfile</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>T4NKxp8jR5e6ctWWwpSpuA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/invoiceProfile</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>8CMAyGxFQjSZE+4+df0qUQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/invoiceProfile</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ResponseParamGroup/ResponseParam</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>qVRrO8N-TpSVNTgfQFLaHA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>u6fLJwBnSdKeOf1E1Lp+rg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/relatedBundleId</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/relatedBundleId</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Fs7jKaUWRPynyvg1oqRpvg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/relatedBundleId</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>eop-BnDOTMOHtRG2wufZaA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/relatedBundleId</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>hOD5C4qESA+3RQKN3IrjNg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/relatedBundleId</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/BillingFunction/Status/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/BillingFunction/Status/ErrorStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Go7jSNI2Tzmpok6Pf5kMCQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/Status/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>5U90ssP8TfOzkY9BoLk6RA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/Status/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/BillingFunction/Status/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/BillingFunction/Status/ErrorCode</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>UYkxN2iKQ3ypQJQ4PbZuTA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/Status/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>h8QuF5OZS-628N6ZP1jg-A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/Status/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/BillingFunction/Status/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/BillingFunction/Status/ErrorMessage</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ixs1EcZfQem4i3E-7raJRQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/Status/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>nTSsSg4DTYaFkL9uec6EXg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/Status/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AccountDetails/customerAddress</element>
+    <elementType>im:CustomerAddress</elementType>
+    <baseElement>CustomerAddress</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/InputMessage</baseNamespace>
+    <dataElementId>AccountDetails/customerAddress</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>SqFOK2YaRxa8QD-o7cRLsA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AccountDetails/customerAddress</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>SFGwZXWkSVOMRqFHbuviig</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AccountDetails/customerAddress</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/BillingFunction/Status</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/BillingFunction/Status</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>OuA7y5TFS-Gc75fmARxhjw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/Status</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>VXd91rBZRCSvjs5BV+Rqiw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/BillingFunction/Status</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ResponseParamGroup/ResponseParam/paramValue</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam/paramValue</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>9nZC2FTdQrSxdeZ6y0S2PQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam/paramValue</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>2TxhhdF4QQG9RvkY4gJfLw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam/paramValue</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>T2JbRs5-Q9WJKOAwCLKkaw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/ResponseParamGroup/ResponseParam/paramValue</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FunctionType/Status</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FunctionType/Status</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Ha+PfKIIRly-r65plwfHVw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FunctionType/Status</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FunctionType/Status/ErrorCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FunctionType/Status/ErrorCode</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>W5NalUm5SAmlyGgim4EQEQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FunctionType/Status/ErrorCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>20</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>5pElSPz+TLOL50THsHoRYQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>FunctionType/Status/ErrorCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FunctionType/Status/ErrorMessage</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FunctionType/Status/ErrorMessage</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>yTRGKpy+T3aeHAbYBPTY-g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FunctionType/Status/ErrorMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>200</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>GYfXYnBCSOC6OW5i8-KqLA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>FunctionType/Status/ErrorMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>OsmCentralOMExample-Orchestration</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FunctionType/Status/ErrorStatus</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FunctionType/Status/ErrorStatus</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Xd5XGbHDRqqNp-2XIO4biw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FunctionType/Status/ErrorStatus</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>cvfqxLiMQwqyEKkyfHyhRQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>FunctionType/Status/ErrorStatus</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+</modelEntity>

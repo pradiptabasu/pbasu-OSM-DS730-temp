@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:OrderDebugTask="urn:com:metasolv:oms:xmlapi:1"
+	 
+    xmlns:exns0="http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL"
+           targetNamespace="urn:com:metasolv:oms:xmlapi:1">
+    	<xs:import namespace="http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL" schemaLocation="../dataDictionary/L3-DD-DJL.xsd"/> 
+  
+    <xs:complexType name="OrderDebugTask">
+        <xs:sequence>
+        <xs:element name="xmlOrderData" type="exns0:xmlData"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:Q1="http://xmlns.oracle.com/InputMessage" xmlns:tns="http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/communications/sce/dictionary/OsmCentralOMExample-Orchestration/OsmCentralOMExample-Orchestration">
+<xs:import namespace="http://xmlns.oracle.com/InputMessage" schemaLocation="InputMessage.xsd"/>
+    <xs:complexType name="ControlData">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="OrderItem">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+              <xs:sequence>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <xs:element name="productClass">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element name="productSpec">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element name="lineId">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element name="parentLineId">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element name="lineItemName">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element name="requestedDeliveryDate">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:dateTime"/>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element name="region">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string"/>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element name="typeCode">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string"/>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element maxOccurs="1" minOccurs="0" name="serviceId">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string"/>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element maxOccurs="1" minOccurs="0" name="lineItemPayload">
+                                                                      <xs:complexType/>
+                                </xs:element>
+                                <xs:element maxOccurs="1" minOccurs="0" name="relatedBundleId" type="xs:string"/>
+                                <xs:element maxOccurs="1" minOccurs="0" name="ResponseParamGroup">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:restriction base="xs:anyType">
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" minOccurs="0" name="ResponseParam">
+                            <xs:complexType>
+                              <xs:complexContent>
+                                <xs:restriction base="xs:anyType">
+                                  <xs:sequence>
+                                    <xs:element name="paramName" type="xs:string"/>
+                                    <xs:element maxOccurs="1" minOccurs="0" name="paramValue">
+                                      <xs:simpleType>
+                                        <xs:restriction base="xs:string"/>
+                                      </xs:simpleType>
+                                    </xs:element>
+                                  </xs:sequence>
+                                </xs:restriction>
+                              </xs:complexContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:restriction>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+                            </xs:sequence>
+            </xs:restriction>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Functions">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+              <xs:sequence>
+                <xs:element maxOccurs="unbounded" minOccurs="1" name="BillingFunction">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="tns:FunctionType"/>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="1" name="MarketingFunction">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="tns:FunctionType"/>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="1" name="ProvisioningFunction">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="tns:FunctionType">
+                        <xs:sequence>
+                          <xs:element maxOccurs="1" minOccurs="0" name="SystemInteraction">
+                            <xs:complexType>
+                              <xs:complexContent>
+                                <xs:restriction base="xs:anyType">
+                                  <xs:sequence>
+                                    <xs:element maxOccurs="1" minOccurs="0" name="ConversationId">
+                                      <xs:simpleType>
+                                        <xs:restriction base="xs:string"/>
+                                      </xs:simpleType>
+                                    </xs:element>
+                                  </xs:sequence>
+                                </xs:restriction>
+                              </xs:complexContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:extension>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="1" name="SyncCustomerFunction">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="tns:FunctionType"/>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="1" name="CollectionsFunction">
+                  <xs:complexType>
+                    <xs:complexContent>
+                      <xs:extension base="tns:FunctionType"/>
+                    </xs:complexContent>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:restriction>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+    <xs:complexType name="FunctionType">
+    <xs:sequence>
+      <xs:element name="componentKey">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="200"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element maxOccurs="unbounded" minOccurs="1" name="orderItem">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="xs:anyType"/>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+                <xs:element maxOccurs="1" minOccurs="0" name="Status">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+              <xs:sequence>
+                <xs:element maxOccurs="1" minOccurs="0" name="ErrorCode">
+                  <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="20"/>
+          </xs:restriction>
+        </xs:simpleType>
+                </xs:element>
+                                              <xs:element maxOccurs="1" minOccurs="0" name="ErrorMessage">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                                <xs:element maxOccurs="1" minOccurs="0" name="ErrorStatus">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string"/>
+                  </xs:simpleType>
+                </xs:element>
+                            </xs:sequence>
+            </xs:restriction>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+        </xs:sequence>
+  </xs:complexType>
+    <xs:complexType name="CustomerDetails">
+    <xs:complexContent>
+      <xs:extension base="Q1:CustomerAddress"/>
+    </xs:complexContent>
+  </xs:complexType>
+    <xs:complexType name="BillingProfile">
+    <xs:complexContent>
+      <xs:extension base="Q1:InvoiceProfileType"/>
+    </xs:complexContent>
+  </xs:complexType>
+    <xs:complexType name="OrderHeader">
+    <xs:sequence>
+      <xs:element maxOccurs="1" minOccurs="0" name="numSalesOrder">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element maxOccurs="1" minOccurs="0" name="typeOrder">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+    <xs:complexType name="AccountDetails">
+    <xs:complexContent>
+      <xs:extension base="Q1:CustomerAccountType"/>
+    </xs:complexContent>
+  </xs:complexType>
+    <xs:complexType name="ResponseParamGroup">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="ResponseParam">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+              <xs:sequence>
+                <xs:element name="componentKey" type="xs:string"/>
+                <xs:element name="paramName">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string"/>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="paramValue">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string"/>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:restriction>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+    <xs:complexType name="FalloutMessage">
+    <xs:sequence/>
+  </xs:complexType>
+    <xs:complexType name="StatusType">
+    <xs:sequence>
+      <xs:element maxOccurs="1" minOccurs="0" name="ErrorCode">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element maxOccurs="1" minOccurs="0" name="ErrorMessage">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="200"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element maxOccurs="1" minOccurs="0" name="ErrorStatus">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+    <xs:complexType name="Status">
+    <xs:sequence>
+      <xs:element maxOccurs="1" minOccurs="0" name="ProvisioningFixedStatus">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="tns:StatusType">
+              <xs:sequence/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element maxOccurs="1" minOccurs="0" name="ProvisioningMobileStatus">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="tns:StatusType"/>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element maxOccurs="1" minOccurs="0" name="ProvisioningDSLRegion1Status">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="tns:StatusType"/>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element maxOccurs="1" minOccurs="0" name="ProvisioningDSLRegion2Status">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="tns:StatusType"/>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element maxOccurs="1" minOccurs="0" name="BillingStatus">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="tns:StatusType"/>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+                  <xs:element maxOccurs="1" minOccurs="0" name="CollectionsStatus">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="tns:StatusType"/>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element maxOccurs="1" minOccurs="0" name="MarketingStatus">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="tns:StatusType"/>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element maxOccurs="1" minOccurs="0" name="SyncCustomerStatus">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="tns:StatusType"/>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

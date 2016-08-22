@@ -1,0 +1,23 @@
+<ord:CreateOrder xmlns:ord="http://xmlns.oracle.com/communications/ordermanagement" >
+    <osm7dd:ServicesOrder xmlns:osm7dd="http://www.example.org/osm7Order1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <osm7dd:orderId>orderId-1000</osm7dd:orderId>
+        <osm7dd:OrderLine>
+            <osm7dd:productName>MOTO-200</osm7dd:productName>
+            <osm7dd:productDesc>Motorola 200</osm7dd:productDesc>
+            <osm7dd:productCode>MOT200</osm7dd:productCode>
+            <osm7dd:class>Mobile</osm7dd:class>
+            <osm7dd:MobileNum>07760613421</osm7dd:MobileNum>
+            <osm7dd:lineID>O3</osm7dd:lineID>
+            <osm7dd:BundleID>00</osm7dd:BundleID>
+        </osm7dd:OrderLine>
+        <osm7dd:OrderLine>
+            <osm7dd:productName>SAMS-TOCO</osm7dd:productName>
+            <osm7dd:productDesc>Samsung Toco</osm7dd:productDesc>
+            <osm7dd:productCode>SAMTOC</osm7dd:productCode>
+            <osm7dd:class>Mobile</osm7dd:class>
+            <osm7dd:MobileNum>07760613422</osm7dd:MobileNum>
+            <osm7dd:lineID>O4</osm7dd:lineID>
+            <osm7dd:BundleID>00</osm7dd:BundleID>
+        </osm7dd:OrderLine>
+    </osm7dd:ServicesOrder>
+</ord:CreateOrder>

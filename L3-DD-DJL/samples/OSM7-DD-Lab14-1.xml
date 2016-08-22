@@ -1,0 +1,109 @@
+<ord:CreateOrder xmlns:ord="http://xmlns.oracle.com/communications/ordermanagement" >
+    <osm7dd:servicesOrder xmlns:osm7dd="http://www.example.org/osm7Order1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <osm7dd:orderId>orderId-1000</osm7dd:orderId>
+
+        <!-- BROADBAND BUNDLE - BUNDLE -->
+        <osm7dd:salesOrderLine>
+            <osm7dd:lineId>1</osm7dd:lineId>
+            <osm7dd:requestedDeliveryDate>2001-12-31T12:00:00</osm7dd:requestedDeliveryDate>
+
+            <osm7dd:itemReference>
+                <osm7dd:productName>Broadband Bundle</osm7dd:productName>
+                <osm7dd:productType>BUNDLE</osm7dd:productType>
+            </osm7dd:itemReference>
+        </osm7dd:salesOrderLine>
+        
+        
+        <!-- Premium High Speed Internet – 8Mbps -->
+        <osm7dd:salesOrderLine>
+            <osm7dd:lineId>2</osm7dd:lineId>
+            <osm7dd:requestedDeliveryDate>2001-12-31T12:00:00</osm7dd:requestedDeliveryDate>
+            
+            <osm7dd:parentLineReference>
+                <osm7dd:parentLineId>1</osm7dd:parentLineId>
+            </osm7dd:parentLineReference>
+          
+            <osm7dd:itemReference>
+                <osm7dd:productName>Premium High Speed Internet 8Mbps</osm7dd:productName>
+                <osm7dd:productDesc>DSL 8mb</osm7dd:productDesc>
+                <osm7dd:productType>PRODUCT</osm7dd:productType>
+                <osm7dd:productCode>DSL8</osm7dd:productCode>
+                <osm7dd:class>DSL</osm7dd:class>
+                <osm7dd:staticIP>1.1.1.1</osm7dd:staticIP>
+            </osm7dd:itemReference>
+        </osm7dd:salesOrderLine>
+
+        <!-- High Speed Internet – 2Mbps -->
+        <osm7dd:salesOrderLine>
+            <osm7dd:lineId>21</osm7dd:lineId>
+            <osm7dd:requestedDeliveryDate>2001-12-31T12:00:00</osm7dd:requestedDeliveryDate>
+            
+            <osm7dd:parentLineReference>
+                <osm7dd:parentLineId>1</osm7dd:parentLineId>
+            </osm7dd:parentLineReference>
+          
+            <osm7dd:itemReference>
+                <osm7dd:productName>High Speed Internet 2Mbps</osm7dd:productName>
+                <osm7dd:productDesc>DSL Standard</osm7dd:productDesc>
+                <osm7dd:productType>PRODUCT</osm7dd:productType>
+                <osm7dd:productCode>DSLStandard</osm7dd:productCode>
+                <osm7dd:class>DSL</osm7dd:class>
+                <osm7dd:staticIP>2.2.2.2</osm7dd:staticIP>
+            </osm7dd:itemReference>
+        </osm7dd:salesOrderLine>        
+        
+        <!-- END BROADBAND BUNDLE - BUNDLE -->
+
+
+        <!-- Mobile BUNDLE - BUNDLE -->
+        <osm7dd:salesOrderLine>
+            <osm7dd:lineId>4</osm7dd:lineId>
+            <osm7dd:requestedDeliveryDate>2001-12-31T12:00:00</osm7dd:requestedDeliveryDate>
+
+            <osm7dd:itemReference>
+                <osm7dd:productName>Mobile Bundle</osm7dd:productName>
+                <osm7dd:productType>BUNDLE</osm7dd:productType>
+            </osm7dd:itemReference>
+        </osm7dd:salesOrderLine>
+        
+        
+        <!-- Motorola 200 -->
+        <osm7dd:salesOrderLine>
+            <osm7dd:lineId>5</osm7dd:lineId>
+            <osm7dd:requestedDeliveryDate>2001-12-31T12:00:00</osm7dd:requestedDeliveryDate>
+            
+            <osm7dd:parentLineReference>
+                <osm7dd:parentLineId>4</osm7dd:parentLineId>
+            </osm7dd:parentLineReference>
+            
+            <osm7dd:itemReference>
+                <osm7dd:productName>MOTO-200</osm7dd:productName>
+                <osm7dd:productDesc>Motorola 200</osm7dd:productDesc>
+                <osm7dd:productType>PRODUCT</osm7dd:productType>
+                <osm7dd:productCode>MOT200</osm7dd:productCode>
+                <osm7dd:class>Mobile</osm7dd:class>
+                <osm7dd:MobileNum>07760613421</osm7dd:MobileNum>
+            </osm7dd:itemReference>
+        </osm7dd:salesOrderLine>
+        
+        <!-- Samsung Toco -->
+        <osm7dd:salesOrderLine>
+            <osm7dd:lineId>6</osm7dd:lineId>
+            <osm7dd:requestedDeliveryDate>2001-12-31T12:00:00</osm7dd:requestedDeliveryDate>
+            
+            <osm7dd:parentLineReference>
+                <osm7dd:parentLineId>4</osm7dd:parentLineId>
+            </osm7dd:parentLineReference>
+            
+            <osm7dd:itemReference>
+                <osm7dd:productName>SAMS-TOCO</osm7dd:productName>
+                <osm7dd:productDesc>Samsung Toco</osm7dd:productDesc>
+                <osm7dd:productType>PRODUCT</osm7dd:productType>
+                <osm7dd:productCode>SAMTOC</osm7dd:productCode>
+                <osm7dd:class>Mobile</osm7dd:class>
+                <osm7dd:MobileNum>07760613422</osm7dd:MobileNum>
+            </osm7dd:itemReference>
+        </osm7dd:salesOrderLine>
+      
+    </osm7dd:servicesOrder>
+</ord:CreateOrder>

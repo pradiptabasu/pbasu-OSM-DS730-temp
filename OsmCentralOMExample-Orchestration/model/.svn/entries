@@ -1,0 +1,125 @@
+10
+
+dir
+838
+svn://kanlddev652b.us.oracle.com/osm_poc/OsmCentralOMExample-Orchestration/model
+svn://kanlddev652b.us.oracle.com/osm_poc
+
+
+
+2010-02-17T16:35:07.703125Z
+186
+mpomerant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3e850a32-e161-5e41-bf20-e93601716718
+
+SUMMARYTASK
+dir
+
+ORCH_SEQUENCE
+dir
+
+ORCHESTRATIONPROCESS
+dir
+
+SYSTEMINTERACTION
+dir
+
+OsmCentralOMExampleOrder.order
+file
+
+
+
+
+2011-03-21T14:50:45.829150Z
+0686046643052db409f45e70ba4d5ad7
+2010-02-04T16:54:30.953125Z
+181
+mpomerant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+79147
+
+FULFILLMENTMODE
+dir
+
+FALLOUTTASK
+dir
+
+SYSTEMINTERACTIONTASKS
+dir
+
+PRODUCTSPEC
+dir
+
+DATAINSTANCE
+dir
+
+POLICY
+dir
+
+SYSTEMRULES
+dir
+
+GRANULARITY
+dir
+
+ROLE
+dir
+
+ORDER_ITEM_SPEC
+dir
+
+FALLOUT
+dir
+
+SYSTEMS
+dir
+
+RECOGNITIONRULE
+dir
+
+FUNCTIONS
+dir
+
+QUERYTASKS
+dir
+
+GRANULARITYRULES
+dir
+
+ORCH_STAGE
+dir
+

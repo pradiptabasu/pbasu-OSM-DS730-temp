@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ord:CreateOrder
+	xmlns:ord="http://xmlns.oracle.com/communications/ordermanagement">
+	<osm7dd:order xmlns:osm7dd="osm7Order1.com"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		
+	        <osm7dd:orderId>orderId-1000</osm7dd:orderId>
+		
+	</osm7dd:order>
+</ord:CreateOrder>

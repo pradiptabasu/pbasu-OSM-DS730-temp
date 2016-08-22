@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:ProvisioningDebugTask="urn:com:metasolv:oms:xmlapi:1"
+	 
+    xmlns:exns0="http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL"
+           targetNamespace="urn:com:metasolv:oms:xmlapi:1">
+    	<xs:import namespace="http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL" schemaLocation="../dataDictionary/L3-DD-DJL.xsd"/> 
+  
+    <xs:complexType name="ProvisioningDebugTask">
+        <xs:sequence>
+        <xs:element name="xmlOrderData" type="exns0:xmlData"/>
+        <xs:element name="ControlData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="OrderItem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductCode" type="xs:string"/>
+                <xs:element name="ProductName" type="xs:string"/>
+                <xs:element name="ProductDesc" type="xs:string"/>
+                <xs:element name="ProductClass" type="xs:string"/>
+                <xs:element name="ProductSpec" type="xs:string"/>
+                <xs:element name="LineID" type="xs:string"/>
+                <xs:element name="BundleID" type="xs:string"/>
+              </xs:sequence>
+            </xs:complexType>
+            </xs:element>
+            <xs:element name="Functions">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProvisioningOrderFunction">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="componentKey" type="xs:string"/>
+                    <xs:element name="orderItem">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="orderItemRef">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="ProductCode" type="xs:string"/>
+                            <xs:element name="ProductName" type="xs:string"/>
+                            <xs:element name="ProductDesc" type="xs:string"/>
+                            <xs:element name="ProductClass" type="xs:string"/>
+                            <xs:element name="ProductSpec" type="xs:string"/>
+                            <xs:element name="LineID" type="xs:string"/>
+                            <xs:element name="BundleID" type="xs:string"/>
+                          </xs:sequence>
+                        </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                    </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+        </xs:element>
+
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.oracle.com/communications/sce/osm/model/orchestration" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:ord="http://xmlns.oracle.com/communications/sce/osm/model/order" xmlns:osm="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xsi:type="OrderItemSpec" name="OrderItemSpecification">
+  <com:displayName>OrderItemSpecification</com:displayName>
+  <com:saveVersion>24</com:saveVersion>
+  <com:id>a54fxzr6SPKHR0lUpLm9mA</com:id>
+  <namespace>osm7Order1.com</namespace>
+  <productSpecMappingProperty>
+    <com:entity>OrderItemSpecification</com:entity>
+    <com:entityType>orderItemSpec</com:entityType>
+    <com:relationship>oracle.communications.sce.osm.orchestration.orderItemSpec.requestedDeliveryDateProperty</com:relationship>
+    <com:element>ProductSpec</com:element>
+    <com:elementType>oracle.communications.sce.osm.orchestration.orderItemSpec.property</com:elementType>
+    <com:elementName>ProductSpec</com:elementName>
+  </productSpecMappingProperty>
+  <requestedDeliveryDateMappingProperty>
+    <com:entity>OrderItemSpecification</com:entity>
+    <com:entityType>orderItemSpec</com:entityType>
+    <com:relationship>oracle.communications.sce.osm.orchestration.orderItemSpec.requestedDeliveryDateProperty</com:relationship>
+    <com:element>RequestedDeliveryDate</com:element>
+    <com:elementType>oracle.communications.sce.osm.orchestration.orderItemSpec.property</com:elementType>
+    <com:elementName>RequestedDeliveryDate</com:elementName>
+  </requestedDeliveryDateMappingProperty>
+  <itemNameProperty>
+    <com:entity>OrderItemSpecification</com:entity>
+    <com:entityType>orderItemSpec</com:entityType>
+    <com:relationship>oracle.communications.sce.osm.orchestration.orderItemSpec.itemNameProperty</com:relationship>
+    <com:element>ProductName</com:element>
+    <com:elementType>oracle.communications.sce.osm.orchestration.orderItemSpec.property</com:elementType>
+    <com:elementName>ProductName</com:elementName>
+  </itemNameProperty>
+  <property name="ProductCode">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;; &#xD;
+fn:normalize-space(osm7dd:itemReference/osm7dd:productCode/text())</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="ProductName">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;; &#xD;
+fn:normalize-space(osm7dd:itemReference/osm7dd:productName/text())</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="ProductDesc">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;; &#xD;
+fn:normalize-space(osm7dd:itemReference/osm7dd:productDesc/text())</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="ProductClass">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;; &#xD;
+fn:normalize-space(osm7dd:itemReference/osm7dd:class/text())</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="ProductSpec">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:externalInstance xsi:type="osm:dataProviderRuleType" enabled="true" final="false" override="false">
+        <osm:description>ClassMappingFileDataInstance</osm:description>
+        <osm:dataProvider inline="false" lang="">
+          <osm:dataProvider>
+            <com:entity>ProductClassMappingFile</com:entity>
+            <com:entityType>dataProvider</com:entityType>
+            <com:relationship>com.mslv.studio.provisioning.entities.viewrules.dataProviderRef</com:relationship>
+          </osm:dataProvider>
+          <osm:paramter name="osm:url" useDefault="true">
+            <osm:binding>'file:///u01/app/oracle/user_projects/domains/osm/productClassMapping.xml'</osm:binding>
+          </osm:paramter>
+          <osm:paramter name="oms:url" useDefault="true">
+            <osm:binding>'file:///u01/app/oracle/user_projects/domains/osm/productClassMapping.xml'</osm:binding>
+          </osm:paramter>
+        </osm:dataProvider>
+      </osm:externalInstance>
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;; &#xD;
+     	let $productClassMap := vf:instance('ClassMappingFileDataInstance')&#xD;
+     	let $productClassName  :=  fn:normalize-space(osm7dd:itemReference/osm7dd:class/text())&#xD;
+return&#xD;
+if ($productClassName != '')&#xD;
+	then&#xD;
+		fn:normalize-space($productClassMap/productClass[fn:lower-case(@name)=fn:lower-case($productClassName)]/productSpec/text())&#xD;
+	else&#xD;
+		'Non.Product.Spec'</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="LineID">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;; &#xD;
+fn:normalize-space(osm7dd:lineId/text())</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="BundleID">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>'Not Used'</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="ParentLineID">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;; &#xD;
+fn:normalize-space(osm7dd:parentLineReference/osm7dd:parentLineId/text())</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="LineItemPayload">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;; &#xD;
+.</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="ProductType">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;; &#xD;
+fn:normalize-space(osm7dd:itemReference/osm7dd:productType/text())</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <property name="RequestedDeliveryDate">
+    <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>declare namespace osm7dd=&quot;http://www.example.org/osm7Order1&quot;; &#xD;
+fn:normalize-space(osm7dd:requestedDeliveryDate/text())</osm:xquery>
+    </nodesetExpression>
+  </property>
+  <hierarchy name="ParentChild">
+    <key>
+      <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+        <osm:xquery>declare namespace osm=&quot;http://xmlns.oracle.com/communications/ordermanagement/model&quot;;&#xD;
+declare namespace osm7dd=&quot;osm7Order1.com&quot;;&#xD;
+fn:normalize-space(osm:properties/osm7dd:LineID/text())</osm:xquery>
+      </nodesetExpression>
+    </key>
+    <parentKey>
+      <nodesetExpression xsi:type="osm:XqueryExpressionRuleType">
+        <osm:xquery>declare namespace osm=&quot;http://xmlns.oracle.com/communications/ordermanagement/model&quot;;&#xD;
+declare namespace osm7dd=&quot;osm7Order1.com&quot;;&#xD;
+fn:normalize-space(osm:properties/osm7dd:ParentLineID/text())</osm:xquery>
+      </nodesetExpression>
+    </parentKey>
+  </hierarchy>
+  <physicalHierarchy>
+    <com:entity>OrderItemSpecification</com:entity>
+    <com:entityType>orderItemSpec</com:entityType>
+    <com:relationship>oracle.communications.sce.osm.orchestration.orderItemSpec.physicalHierarchy</com:relationship>
+    <com:element>ParentChild</com:element>
+    <com:elementType>oracle.communications.sce.osm.orchestration.orderItemSpec.hierarchy</com:elementType>
+  </physicalHierarchy>
+  <orderTemplateContribution>
+    <ord:nodeExtension>
+      <ord:path>/ControlData</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/ProductCode</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/ProductName</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/ProductDesc</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/ProductClass</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/ProductSpec</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/LineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/BundleID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/ParentLineID</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/LineItemPayload</ord:path>
+      <ord:xmlType>true</ord:xmlType>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/ProductType</ord:path>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/ControlData/OrderItem/RequestedDeliveryDate</ord:path>
+    </ord:nodeExtension>
+    <ord:orderData>
+      <com:entity>L3-DD-DJL</com:entity>
+      <com:entityType>xsd</com:entityType>
+      <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+      <com:element>ControlData</com:element>
+      <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+      <com:elementName>ControlData</com:elementName>
+      <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+      <com:baseElement>(Reusable Structure)</com:baseElement>
+      <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+      <ord:childNode>
+        <com:entity>L3-DD-DJL</com:entity>
+        <com:entityType>xsd</com:entityType>
+        <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+        <com:element>ControlData/OrderItem</com:element>
+        <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+        <com:elementName>ControlData/OrderItem</com:elementName>
+        <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+        <com:baseElement>(Local Structure)</com:baseElement>
+        <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductCode</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductCode</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductName</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductName</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductDesc</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductDesc</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductClass</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductClass</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductSpec</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductSpec</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/LineID</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>LineID</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/BundleID</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>BundleID</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ParentLineID</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ParentLineID</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/LineItemPayload</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>LineItemPayload</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>(Local Structure)</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/ProductType</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>ProductType</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>string</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+        <ord:childNode>
+          <com:entity>L3-DD-DJL</com:entity>
+          <com:entityType>xsd</com:entityType>
+          <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+          <com:element>ControlData/OrderItem/RequestedDeliveryDate</com:element>
+          <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+          <com:elementName>RequestedDeliveryDate</com:elementName>
+          <com:namespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</com:namespace>
+          <com:baseElement>dateTime</com:baseElement>
+          <com:baseNamespace>http://www.w3.org/2001/XMLSchema</com:baseNamespace>
+        </ord:childNode>
+      </ord:childNode>
+    </ord:orderData>
+  </orderTemplateContribution>
+</com:modelEntity>

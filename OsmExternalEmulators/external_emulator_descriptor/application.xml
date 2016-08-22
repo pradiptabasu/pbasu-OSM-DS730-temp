@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.4">
+  <description>OSM External System Emulators</description>
+  <display-name>OSM External System Emulators</display-name>
+  <module>
+    <ejb>external_emulator.jar</ejb>
+  </module>
+</application>

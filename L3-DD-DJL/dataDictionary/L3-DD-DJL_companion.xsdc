@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mslv.com/studio/core/model/common" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:data="http://www.oracle.com/communications/studio/core/model/common/data" xmlns:provisioning="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xsi:type="dataDictionaryCompanionType" name="L3-DD-DJL_companion">
+  <displayName>DDCM</displayName>
+  <saveVersion>26</saveVersion>
+  <id>CDcFjr3pQ72oUiNfgGHC-Q</id>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>OrderId</element>
+    <elementType>anyType</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>OrderId</dataElementId>
+    <displayName>Order ID</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <minCardinality>0</minCardinality>
+    <maxCardinality>1</maxCardinality>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>36Gzfs0DR-e715HETvA0iQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>OrderId</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>20</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>OsO2ebMQQJylewyLsohNdQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>OrderId</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>iPIAjGznRFOdL7hjU-v5Mw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>OrderId</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>xmlData</element>
+    <elementType>xmlData</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>xmlData</dataElementId>
+    <displayName>Xml Data</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <minCardinality>0</minCardinality>
+    <maxCardinality>1</maxCardinality>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>TlxMeqExRzCPECl7KydZ0w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>xmlData</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>JYRgc6UdSFarwm4NtGSdkw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>xmlData</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>xmlOrderData</element>
+    <elementType>xmlOrderData</elementType>
+    <baseElement>xmlData</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</baseNamespace>
+    <dataElementId>xmlOrderData</dataElementId>
+    <displayName>Xml Order Data</displayName>
+    <minCardinality>0</minCardinality>
+    <maxCardinality>1</maxCardinality>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>WZ4YN3SQQIqqNSsQ+YgOnQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>xmlOrderData</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>yE+9DxWuSUKcJ9uqIwFScA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>xmlOrderData</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FunctionType</element>
+    <elementType>FunctionType</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FunctionType</dataElementId>
+    <displayName>Function Type</displayName>
+    <minCardinality>0</minCardinality>
+    <maxCardinality>-1</maxCardinality>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>fg2csvo9SuirKZZybBM6oA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FunctionType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>y1rGqxSJTJSo8GOC-L4LtA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>FunctionType</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FunctionType/componentKey</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FunctionType/componentKey</dataElementId>
+    <displayName>Component Key</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>H8L48OzGSfCIAXjMnOBtFQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FunctionType/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>V+VCfrJ7SPaCKq6svvcT8Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>FunctionType/componentKey</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>pcfsv2+PRBK627+I0E7r5Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>FunctionType/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FunctionType/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FunctionType/orderItem</dataElementId>
+    <displayName>Order Item</displayName>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>OTu90W-GSAa1CO2xe6f1mA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FunctionType/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>KO98kfCwTvKgOQxRxnVk4Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>FunctionType/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData</element>
+    <elementType>ControlData</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData</dataElementId>
+    <displayName>Control Data</displayName>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>nsC21PEyT52P7odE+KXw-g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>1xeIW8NxSj+tF0JhlQ0IMA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem</dataElementId>
+    <displayName>Order Item</displayName>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>2DB4u6PnTG6WF6AoVElSmw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>nF4tK37ZSreKVs51TwyMTA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ProductCode</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ProductCode</dataElementId>
+    <displayName>Product Code</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>99A6qP8NTJeEkgqnySFL-A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>50</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>7uI4Kn8oRiOZ07EjYblANA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductCode</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>sDYzDlcqRla1Ihjf3CRIUw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ProductName</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ProductName</dataElementId>
+    <displayName>Product Name</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>WMF3+CH1RVSAiIf2kKCc8g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductName</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>50</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>tRkUotqfQQeAd7MFG03Qfg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductName</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>LEc6z4QQRiywxYpjgAD6oQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductName</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ProductDesc</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ProductDesc</dataElementId>
+    <displayName>Product Desc</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>ca3cROIpQhqnaG3YrvoISg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductDesc</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>50</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>QMdLxZGbRX2ABevgHW6evw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductDesc</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>o4BrnAZYRWu-kS0v7yQWRQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductDesc</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ProductClass</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ProductClass</dataElementId>
+    <displayName>Product Class</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>PdO7grMcQX6hRLEH0R23zQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductClass</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>50</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>1a-u+n6YSx6Pfpl3pQNajQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductClass</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>ZS25hOguRn2i+GG+UYgVVw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductClass</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ProductSpec</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ProductSpec</dataElementId>
+    <displayName>Product Spec</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>xxSO+tJmQEySDpXpqvZ-JQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductSpec</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>100</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>g3MDP7rnRmGZAXEK0zWWDQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductSpec</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>Cmvxdv-USbi-3jqIoAFqow</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductSpec</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/LineID</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/LineID</dataElementId>
+    <displayName>Line ID</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>HznzTIxaRQOlMEnXFdcU+w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/LineID</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>5</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>uhHwzvFyRrqO1gcb1T5zLQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/LineID</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>jiogyktJSAGrVTQCBO6sJg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/LineID</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/BundleID</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/BundleID</dataElementId>
+    <displayName>Bundle ID</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Ww+i-7FWSeW7hhPX02wV+w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/BundleID</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>10</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>SOno74hXTSyNXt2nEw1jXg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/BundleID</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>37eXdy6vTKWkQxrKdW-IqA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/BundleID</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions</dataElementId>
+    <displayName>Functions</displayName>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>XWPvFmvNR9WwdEC9cUVtdQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>mnswYLLeRsSpepboUmZXYQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/InitiateBillingFunction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>FunctionType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</baseNamespace>
+    <dataElementId>ControlData/Functions/InitiateBillingFunction</dataElementId>
+    <displayName>Initiate Billing Function</displayName>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>waT74oBDQPeyH5-J3bgmRA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/InitiateBillingFunction</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>vD6eXkUUSUuSI887mWJXsA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/InitiateBillingFunction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/FulfillBillingFunction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>FunctionType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</baseNamespace>
+    <dataElementId>ControlData/Functions/FulfillBillingFunction</dataElementId>
+    <displayName>Fulfill Billing Function</displayName>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>H1CnS82cRAqg4APISGzRsQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/FulfillBillingFunction</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>OB7jM7iDQM+MPIOCdrkJug</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/FulfillBillingFunction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ProvisioningOrderFunction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>FunctionType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</baseNamespace>
+    <dataElementId>ControlData/Functions/ProvisioningOrderFunction</dataElementId>
+    <displayName>Provisioning Order Function</displayName>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>F1sm8mmjQC6MiLsRQFodaA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningOrderFunction</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>vA6BYot1RgiayPCtrjNYJQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningOrderFunction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/InstallOrderFunction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>FunctionType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</baseNamespace>
+    <dataElementId>ControlData/Functions/InstallOrderFunction</dataElementId>
+    <displayName>Install Order Function</displayName>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>WaQOsXFhTUO1razuHAmi-g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/InstallOrderFunction</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>O9GSVSQvSSqpf4LmK8P1Tw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/InstallOrderFunction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ShipOrderFunction</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>FunctionType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/communications/sce/dictionary/L3-DD-DJL/L3-DD-DJL</baseNamespace>
+    <dataElementId>ControlData/Functions/ShipOrderFunction</dataElementId>
+    <displayName>Ship Order Function</displayName>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>N-XV1XuXTjChMP7yAS237w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ShipOrderFunction</data:dataElementId>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:maxMultiplicity>-1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>38qhZQADTb+IoBmyTmh97w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ShipOrderFunction</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/InstallOrderFunction/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/InstallOrderFunction/componentKey</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>7OivmwchTait5r9VsbDkxQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/InstallOrderFunction/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>i3+T1vhCQ3S03Zy3789-yA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/InstallOrderFunction/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/InstallOrderFunction/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/InstallOrderFunction/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>fNhJvgRCTjqkpGHhwA2sOQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/InstallOrderFunction/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>1y22MkI-T8ShkJOT400SCQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/InstallOrderFunction/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/FulfillBillingFunction/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/FulfillBillingFunction/componentKey</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>g0JCZJ5VQNiSQAAc8AUAOQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/FulfillBillingFunction/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>LPybjeorSoa97fHCRo6-PQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/FulfillBillingFunction/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/FulfillBillingFunction/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/FulfillBillingFunction/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>H2AevG0USYa20BMjVshBtw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/FulfillBillingFunction/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>X-7CV9ZKSSmZ6kUjrXesvQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/FulfillBillingFunction/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/InitiateBillingFunction/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/InitiateBillingFunction/componentKey</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>BQwIxksyTX+DE369SI4LkQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/InitiateBillingFunction/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>rtzbkYNWSi6h62VV+maEXg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/InitiateBillingFunction/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/InitiateBillingFunction/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/InitiateBillingFunction/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>iGIz5d2dQ6qbFvn+HjDo2A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/InitiateBillingFunction/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>-ZoULYLcTA6lqfXdk4x9Ow</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/InitiateBillingFunction/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ProvisioningOrderFunction/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/ProvisioningOrderFunction/componentKey</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>jaOyFpcWThK9Sukfl+iFjA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningOrderFunction/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>p-h0E18TTGu+E9HCMYgyxw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningOrderFunction/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ProvisioningOrderFunction/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/ProvisioningOrderFunction/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>3fxR2q7nR+2urND22-Ndfw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningOrderFunction/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Y3rf4DC-SAiY50uao9cNKA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ProvisioningOrderFunction/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ShipOrderFunction/componentKey</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/ShipOrderFunction/componentKey</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>WYY7myA-QEqbVaDuowhKug</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ShipOrderFunction/componentKey</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>xF4RPKkkSqCXG-MyqDM4qQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ShipOrderFunction/componentKey</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/Functions/ShipOrderFunction/orderItem</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/Functions/ShipOrderFunction/orderItem</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>vdLmPcXyRmGqZFGo0sYoUQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/Functions/ShipOrderFunction/orderItem</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>cZPxlr3SR0yMA69WmJ4JTA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/Functions/ShipOrderFunction/orderItem</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ParentLineID</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ParentLineID</dataElementId>
+    <displayName>Parent Line ID</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>aYqa45aaQuGcJPu2AM2hng</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ParentLineID</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>5</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>mYoYw2pURv+CoFB1rbQMxA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ParentLineID</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>IjfaRAEYRBGfsb+jmFZsLA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/ParentLineID</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/LineItemPayload</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>(Local Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/LineItemPayload</dataElementId>
+    <displayName>Line Item Payload</displayName>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>mwSSG4d9SjigDlrpjUC-3w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/LineItemPayload</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>DJLF6-kPT62gTTqdrW-wlQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/LineItemPayload</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/ProductType</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/ProductType</dataElementId>
+    <displayName>Product Type</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>lPkEman+SnOl-3s-uQ3d5g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>50</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>lvZp5ry3T6aIfJydJMXI+A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductType</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>104LD8kcRaK2ENjqgcGe8w</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>ControlData/OrderItem/ProductType</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>L3-DD-DJL</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>ControlData/OrderItem/RequestedDeliveryDate</element>
+    <elementType>xs:dateTime</elementType>
+    <baseElement>dateTime</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>ControlData/OrderItem/RequestedDeliveryDate</dataElementId>
+    <displayName>Requested Delivery Date</displayName>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>RswBTeWrTF2bc-pzPsJ2nQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>ControlData/OrderItem/RequestedDeliveryDate</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:key></data:key>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:sensitive>false</data:sensitive>
+        <data:minLength>0</data:minLength>
+        <data:maxLength>40</data:maxLength>
+        <data:minMultiplicity>0</data:minMultiplicity>
+        <data:maxMultiplicity>1</data:maxMultiplicity>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>vMCPhKCmQLqh2WE4C1GU2Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>ControlData/OrderItem/RequestedDeliveryDate</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+</modelEntity>
